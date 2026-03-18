@@ -1,6 +1,5 @@
-<style>
 .testbtn {
-  background-color: #04AA6D;
+  background-color: #08d98c;
   color: white;
   font-size: 15px;
   padding: 12px;
@@ -10,5 +9,5 @@
 }
 
 .testbtn:hover {
-  background-color: #059862;
+  background-color: rgb(54, 5, 213);
 }
