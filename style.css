@@ -8,30 +8,50 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* container in het midden */
 .container {
     text-align: center;
 }
 
+/* titel */
 h1 {
     color: white;
     margin-bottom: 20px;
 }
-h2 {
+
+/* som */
+#som {
+    font-size: 40px;
+    background-color: #306eac;
+    padding: 20px;
+    margin: 20px auto;
+    display: block;
     color: white;
-    margin-bottom: 20px;
+    width: fit-content;
 }
 
+/* knoppen */
 button {
-    padding: 15px 40px;
+    padding: 15px 30px;
     font-size: 20px;
     border: none;
     border-radius: 10px;
-    background: #00c853;
+    background-color: #34495e;
     color: white;
     cursor: pointer;
+    margin: 10px;
     transition: 0.3s;
 }
 
+/* hover effect */
 button:hover {
-    background: #00a844;
+    background-color: lightblue;
+    color: black;
+}
+
+/* resultaat tekst */
+#resultaat {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
 }
