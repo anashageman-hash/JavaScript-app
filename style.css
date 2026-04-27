@@ -73,7 +73,7 @@ button:hover {
 #progress {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, green, yellow, red);
+    background: linear-gradient(to left, rgb(9, 235, 39), yellow, red);
     transition: width 1s linear;
 }
 h2 {  color: rgb(238, 233, 233);
