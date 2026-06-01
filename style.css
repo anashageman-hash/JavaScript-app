@@ -1,14 +1,15 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
+
+    background: linear-gradient(180deg, #000428, #004e92);
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2a0bd8;
     font-family: Arial, sans-serif;
 }
 
-/* container in het midden */
 .container {
     text-align: center;
 }
